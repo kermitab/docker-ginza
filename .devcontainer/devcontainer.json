@@ -1,0 +1,21 @@
+{
+	"name": "twitter_analysis",
+	"dockerComposeFile": [
+		"./docker-compose.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/work/",
+	"settings": {
+		"terminal.integrated.profiles.linux": {
+			"bash (login)": {
+				"path": "bash",
+				"args": ["-l"]
+			}
+		}
+	},
+	"extensions": [
+		"ms-python.python",
+		"ionutvmi.path-autocomplete"
+	],
+//	"postCreateCommand": "",
+}
